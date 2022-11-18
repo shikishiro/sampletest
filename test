@@ -2,8 +2,7 @@
 using namespace std;
 int main() 
 {
-    int year_input1;
-    char status_input1;
+    char year_input1, status_input1;
     
     cout<<"Xyris Zamoranos\n";
     cout<<"IT11S5\n";
@@ -14,7 +13,7 @@ int main()
     cout<< "Enter status: ";
     cin >> status_input1;
     
-    if (year_input1 == 1)
+    if (year_input1 == '1')
     {
         if (status_input1 == 'R' || status_input1 == 'r')
         {
@@ -29,7 +28,7 @@ int main()
             cout<<"The Student is First Year and Invalid";
         }
     }
-    else if (year_input1 == 2)
+    else if (year_input1 == '2')
     {
         if (status_input1 == 'R' || status_input1 == 'r')
         {
@@ -44,7 +43,7 @@ int main()
             cout<<"The Student is Second and Invalid";
         }
     }
-    else if (year_input1 == 3)
+    else if (year_input1 == '3')
     {
         if (status_input1 == 'R' || status_input1 == 'r')
         {
@@ -59,7 +58,7 @@ int main()
             cout<<"The Student is Third Year and Invalid";
         }
     }
-    else if (year_input1 == 4)
+    else if (year_input1 == '4')
     {
         if (status_input1 == 'R' || status_input1 == 'r')
         {
