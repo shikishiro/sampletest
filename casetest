@@ -1,0 +1,89 @@
+#include<iostream>
+using namespace std;
+int main() 
+{
+    char year_input1, status_input1;
+    
+    cout<<"Xyris Zamoranos\n";
+    cout<<"IT11S5\n";
+    
+    cout<< "Enter year Level: ";
+    cin >> year_input1;
+    
+    cout<< "Enter status: ";
+    cin >> status_input1;
+    
+    switch (year_input1)
+    {
+        case '1':
+            switch (status_input1)
+            {
+                case 'R': case 'r':
+                cout<<"The Student is First Year and Regular";
+                break;
+                case 'I': case 'i':
+                cout<<"The Student is First Year and Irregular";
+                break;
+                default:
+                cout<<"The Student is First Year and Invalid";
+                break;
+            }
+        break;
+        case '2':
+            switch (status_input1)
+            {
+                case 'R': case 'r':
+                cout<<"The Student is Second Year and Regular";
+                break;
+                case 'I': case 'i':
+                cout<<"The Student is Second Year and Irregular";
+                break;
+                default:
+                cout<<"The Student is Second Year and Invalid";
+                break;
+            }
+        break;
+        case '3':
+            switch (status_input1)
+            {
+                case 'R': case 'r':
+                cout<<"The Student is Third Year and Regular";
+                break;
+                case 'I': case 'i':
+                cout<<"The Student is Third Year and Irregular";
+                break;
+                default:
+                cout<<"The Student is Third Year and Invalid";
+                break;
+            }
+        break;
+        case '4':
+            switch (status_input1)
+            {
+                case 'R': case 'r':
+                cout<<"The Student is Forth Year and Regular";
+                break;
+                case 'I': case 'i':
+                cout<<"The Student is Forth Year and Irregular";
+                break;
+                default:
+                cout<<"The Student is Forth Year and Invalid";
+                break;
+            }
+        break;
+        default:
+            switch (status_input1)
+            {
+                case 'R': case 'r':
+                cout<<"The Student is Invalid and Regular";
+                break;
+                case 'I': case 'i':
+                cout<<"The Student is Invalid and Irregular";
+                break;
+                default:
+                cout<<"The Student is Invalid and Invalid";
+                break;
+            }
+        break;
+    }
+}
